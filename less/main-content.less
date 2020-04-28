@@ -8,6 +8,13 @@
 
     //.order(column, center, center);
 
+    h1 { //"Popular Listings"
+
+        text-align: center;
+        padding-top: 2%;
+
+    }
+
     #listings-container {
 
         .order(row, space-evenly);
@@ -42,12 +49,24 @@
 
             }
 
-            #listinginfo {
+            #listingleft {
 
                 .space(2% 0px 0px 2%);
 
                 min-width: 50%;
                 min-height: 100%;
+
+                #listingtext {
+
+                    font-weight: bold;
+
+                }
+
+                p { //description of the listing
+
+                    .space(0 0 0 0, 5% 0 0 0);
+
+                }
 
             }
         
@@ -57,3 +76,14 @@
 
 }
 
+#biddinginfo {
+
+    .order(row, space-between, flex-end);
+
+    margin-right: 20%;
+
+    font-size: 1.2rem;
+
+    height: 50%;
+
+}
