@@ -34,20 +34,6 @@
 
         }
 
-        a { //fix at diff resolutions
-
-            text-decoration: none;
-            color: @btn-color;
-            border: 3px solid @btn-color;
-            border-radius: 7px;
-
-            .space(5px 50px 5px 50px, 5% 5% 0 0);
-
-            text-align: center;
-
-
-        }
-
         #ctabuttons {
 
             .order(row, left, center);
@@ -57,9 +43,18 @@
             flex-shrink: 0;
             
 
-            a {
+            a { //fix at diff resolutions
 
                 flex-shrink: 0;
+
+                text-decoration: none;
+                color: @btn-color;
+                border: 3px solid @btn-color;
+                border-radius: 7px;
+    
+                .space(5px 50px 5px 50px, 5% 5% 0 0);
+    
+                text-align: center;
 
             }
 

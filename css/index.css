@@ -169,15 +169,6 @@ h4 {
 #cta #ctatext P {
   margin-bottom: 10%;
 }
-#cta #ctatext a {
-  text-decoration: none;
-  color: #FFD700;
-  border: 3px solid #FFD700;
-  border-radius: 7px;
-  padding: 5px 50px 5px 50px;
-  margin: 5% 5% 0 0;
-  text-align: center;
-}
 #cta #ctatext #ctabuttons {
   display: flex;
   flex-direction: row;
@@ -188,6 +179,13 @@ h4 {
 }
 #cta #ctatext #ctabuttons a {
   flex-shrink: 0;
+  text-decoration: none;
+  color: #FFD700;
+  border: 3px solid #FFD700;
+  border-radius: 7px;
+  padding: 5px 50px 5px 50px;
+  margin: 5% 5% 0 0;
+  text-align: center;
 }
 #sold-items {
   background-color: #f7f7f7;
@@ -206,6 +204,7 @@ h4 {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 4%;
 }
 #sold-items #listings-container .listing {
   display: flex;
@@ -246,4 +245,17 @@ h4 {
   margin-right: 20%;
   font-size: 1.2rem;
   height: 50%;
+}
+#viewall {
+  text-align: center;
+}
+#viewall a {
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #363535;
+  border: 3px solid #363535;
+  border-radius: 7px;
+  padding: 5px 50px 5px 50px;
+  margin: 0 0 0 0;
+  text-align: center;
 }

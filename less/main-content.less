@@ -23,6 +23,8 @@
 
         flex-wrap: wrap;
 
+        margin-bottom: 4%;
+
         .listing {
 
             .order(row, space-between, top);
@@ -67,13 +69,9 @@
                     .space(0 0 0 0, 5% 0 0 0);
 
                 }
-
             }
-        
         }
-
     }
-
 }
 
 #biddinginfo {
@@ -86,4 +84,25 @@
 
     height: 50%;
 
+}
+
+#viewall {
+
+    text-align: center;
+
+    a {
+
+        flex-shrink: 0;
+
+        text-decoration: none;
+        color: @text-color;
+        border: 3px solid @text-color;
+        border-radius: 7px;
+    
+        .space(5px 50px 5px 50px);
+    
+        text-align: center;
+    
+
+    }
 }
