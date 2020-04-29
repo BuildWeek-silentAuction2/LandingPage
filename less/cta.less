@@ -9,12 +9,20 @@
 
 #cta {
 
-    .order(row-reverse, space-evenly, center);
+    .order(row, space-evenly, center);
     .space(2% 10% 2% 10%, 5% 0 5% 0);
     border: 1px solid rgb(24, 24, 24);
     box-shadow: 0px 0px 7px 2px black;
 
     color: rgb(212, 212, 212);
+
+    @media @phone {
+
+        .order(column);
+
+        padding-bottom: 10%;
+
+    }
 
     img {
 
