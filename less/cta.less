@@ -1,0 +1,106 @@
+#toparea {
+
+    background-image: url("../images/brown-wooden-drumstick-beside-brown-wooden-case-179959.jpg");
+    //background-repeat: no-repeat;
+    //background-size: cover;
+    background-position: left-center;
+
+}
+
+#cta {
+
+    .order(row, space-evenly, center);
+    .space(2% 10% 2% 10%, 5% 0 5% 0);
+    border: 1px solid rgb(24, 24, 24);
+    box-shadow: 0px 0px 7px 2px black;
+
+    color: rgb(212, 212, 212);
+
+    @media @phone {
+
+        .order(column);
+
+        padding-bottom: 10%;
+
+    }
+
+    img {
+
+        //background-color: grey;
+        width: 300px;
+
+    }
+
+    #ctatext {
+
+        width: 30%;
+        font-size: 2rem;
+
+        P {
+
+            //margin-bottom: 10%;
+
+        }
+
+        #ctabuttons {
+
+            .order(row, space-evenly, center);
+
+            flex-wrap: wrap;
+
+            flex-shrink: 0;
+
+            //height: 500px;
+
+            //min-width: 151px;
+            //max-width: 151px;
+            
+
+            a { //fix at diff resolutions
+
+                flex-shrink: 0;
+
+                text-decoration: none;
+                color: @btn-color;
+                border: 3px solid @btn-color;
+                border-radius: 7px;
+    
+                .space(5px 50px 5px 50px, 5% 5% 0 0);
+    
+                text-align: center;
+
+            }
+
+            div {
+
+                margin-top: 50px;
+
+            }
+
+            #loginbtndiv {
+
+                //margin-bottom: 30px;
+                //margin-right: 60px;
+                width: 160px;
+
+            }
+
+            #signupbtndiv {
+
+                width: 160px;
+
+                a {
+                    white-space: nowrap;
+                    .space(5px 42px 5px 42px);
+
+                }
+        
+            }
+
+        }
+
+    }
+
+
+
+}

@@ -1,0 +1,133 @@
+#sold-items {
+
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    color: black;
+
+    .space(0 0 5% 0);
+
+    @media @tablet {
+
+        padding-top: 5%;
+
+    }
+
+    h2 { //"Popular Listings"
+
+        text-align: center;
+        padding-top: 2%;
+
+    }
+
+    #listings-container {
+
+        .order(row, space-evenly);
+
+        flex-wrap: wrap;
+
+        margin-bottom: 4%;
+
+        .listing {
+
+            .order(row, space-between, top);
+
+            border: 1px solid rgb(192, 196, 195);
+            border-radius: 5px;
+            box-shadow: 0px 0px 5px 0px rgb(120, 126, 125);
+
+            background-color: white;
+
+            .space(0 0 0 0, 5% 0 0 0);
+
+            min-width: 655px;
+            max-width: 655px;
+
+            @media @tablet {
+
+                min-width: 75%;
+                max-width: 75%;
+        
+            }
+
+            img {
+
+                width: 272px;
+                height: 215px;
+
+                border-top-right-radius: 4px;
+
+                border-bottom-right-radius: 4px;
+
+                @media @tablet {
+
+                    width: 60%;
+            
+                }
+
+            }
+
+            #listingleft {
+
+                .space(2% 2% 0px 2%);
+
+                min-width: 50%;
+                max-width: 377px;
+                min-height: 100%;
+
+                #listingtext {
+
+                    font-weight: bold;
+                    height: 42%;
+
+                }
+
+                p { //description of the listing
+
+                    .space(0 0 0 0, 5% 0 0 0);
+
+                }
+            }
+        }
+    }
+}
+
+#biddinginfo {
+
+    .order(row, space-between, flex-end);
+
+    margin-right: 20%;
+
+    font-size: 1.2rem;
+
+    height: 50%;
+
+}
+
+#viewall {
+
+    text-align: center;
+
+    @media @tablet {
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+    }
+
+    a {
+
+        flex-shrink: 0;
+
+        text-decoration: none;
+        color: @text-color;
+        border: 3px solid @text-color;
+        border-radius: 7px;
+    
+        .space(5px 50px 5px 50px);
+    
+        text-align: center;
+    
+
+    }
+}
+

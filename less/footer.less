@@ -1,0 +1,33 @@
+footer {
+
+    .space(1% 0 1% 0);
+    .order();
+
+    @media @tablet {
+
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+    }
+
+    @media @phone {
+
+        .order(row, space-around);
+
+        .space(4% 4% 4% 4%);
+
+    }
+
+    nav {
+
+        width: 500px;
+        .order(row, space-between, center);
+
+        a {
+
+            text-decoration: none;
+            color: rgb(212, 212, 212);
+
+        }
+    }
+}

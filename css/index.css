@@ -1,0 +1,456 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #353535;
+  font-size: 1.6rem;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+  color: #363535;
+}
+h2 {
+  font-size: 3rem;
+  text-shadow: 1px 0px 1px #787e7d;
+}
+h4 {
+  font-size: 2rem;
+}
+#toparea {
+  background-image: url("../images/brown-wooden-drumstick-beside-brown-wooden-case-179959.jpg");
+  background-position: left-center;
+}
+#cta {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2% 10% 2% 10%;
+  margin: 5% 0 5% 0;
+  border: 1px solid #181818;
+  box-shadow: 0px 0px 7px 2px black;
+  color: #d4d4d4;
+}
+@media (max-width:500px) {
+  #cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+  }
+}
+#cta img {
+  width: 300px;
+}
+#cta #ctatext {
+  width: 30%;
+  font-size: 2rem;
+}
+#cta #ctatext #ctabuttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+}
+#cta #ctatext #ctabuttons a {
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #FFD700;
+  border: 3px solid #FFD700;
+  border-radius: 7px;
+  padding: 5px 50px 5px 50px;
+  margin: 5% 5% 0 0;
+  text-align: center;
+}
+#cta #ctatext #ctabuttons div {
+  margin-top: 50px;
+}
+#cta #ctatext #ctabuttons #loginbtndiv {
+  width: 160px;
+}
+#cta #ctatext #ctabuttons #signupbtndiv {
+  width: 160px;
+}
+#cta #ctatext #ctabuttons #signupbtndiv a {
+  white-space: nowrap;
+  padding: 5px 42px 5px 42px;
+  margin: 0 0 0 0;
+}
+#sold-items {
+  background-color: #f7f7f7;
+  width: 100%;
+  color: black;
+  padding: 0 0 5% 0;
+  margin: 0 0 0 0;
+}
+@media (max-width:800px) {
+  #sold-items {
+    padding-top: 5%;
+  }
+}
+#sold-items h2 {
+  text-align: center;
+  padding-top: 2%;
+}
+#sold-items #listings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 4%;
+}
+#sold-items #listings-container .listing {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  border: 1px solid #c0c4c3;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px #787e7d;
+  background-color: white;
+  padding: 0 0 0 0;
+  margin: 5% 0 0 0;
+  min-width: 655px;
+  max-width: 655px;
+}
+@media (max-width:800px) {
+  #sold-items #listings-container .listing {
+    min-width: 75%;
+    max-width: 75%;
+  }
+}
+#sold-items #listings-container .listing img {
+  width: 272px;
+  height: 215px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+@media (max-width:800px) {
+  #sold-items #listings-container .listing img {
+    width: 60%;
+  }
+}
+#sold-items #listings-container .listing #listingleft {
+  padding: 2% 2% 0px 2%;
+  margin: 0 0 0 0;
+  min-width: 50%;
+  max-width: 377px;
+  min-height: 100%;
+}
+#sold-items #listings-container .listing #listingleft #listingtext {
+  font-weight: bold;
+  height: 42%;
+}
+#sold-items #listings-container .listing #listingleft p {
+  padding: 0 0 0 0;
+  margin: 5% 0 0 0;
+}
+#biddinginfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-right: 20%;
+  font-size: 1.2rem;
+  height: 50%;
+}
+#viewall {
+  text-align: center;
+}
+@media (max-width:800px) {
+  #viewall {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
+#viewall a {
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #363535;
+  border: 3px solid #363535;
+  border-radius: 7px;
+  padding: 5px 50px 5px 50px;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+#view-all-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+#listingimg {
+  background-image: url("../images/fakelistings/listing-screenshot.PNG");
+  background-size: cover;
+  text-align: center;
+  width: 80%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width:800px) {
+  #listingimg {
+    width: 100%;
+  }
+}
+#listingimg .popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/2020-black-crystalline-peaks-image.jpg");
+  color: lightgray;
+  font-size: 3rem;
+  width: 500px;
+  height: 300px;
+}
+@media (max-width:800px) {
+  #listingimg .popup {
+    width: 100%;
+  }
+}
+#listingimg .popup #view-all-sign-up {
+  text-align: center;
+  width: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#listingimg .popup #view-all-sign-up a {
+  font-size: 1.9rem;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #FFD700;
+  border: 3px solid #FFD700;
+  border-radius: 7px;
+  padding: 5px 50px 5px 50px;
+  margin: 5% 5% 0 0;
+  text-align: center;
+}
+#about-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#aboutbackground {
+  background-image: url("../images/a005-scottw-486.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  height: 500px;
+  margin-top: 10%;
+}
+@media (max-width:800px) {
+  #aboutbackground {
+    width: 100%;
+  }
+}
+#about-content {
+  background-color: rgba(211, 211, 211, 0.9);
+  padding-bottom: 5%;
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+#about-content h2 {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+#about-content p {
+  width: 60%;
+  margin-bottom: 3%;
+}
+#about-content ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: 5%;
+}
+#about-content ul li {
+  text-shadow: 1px 0px 1px #787e7d;
+  margin-top: 10px;
+}
+#about-content a {
+  text-decoration: none;
+  color: black;
+}
+footer {
+  padding: 1% 0 1% 0;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width:800px) {
+  footer {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
+@media (max-width:500px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4% 4% 4% 4%;
+    margin: 0 0 0 0;
+  }
+}
+footer nav {
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+footer nav a {
+  text-decoration: none;
+  color: #d4d4d4;
+}
