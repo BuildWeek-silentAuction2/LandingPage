@@ -5,17 +5,18 @@
 
 }
 
-#about-content {
+#aboutbackground {
 
-    background-color: lightgray;
+    background-image: url("../images/a005-scottw-486.jpg");
 
-    width: 50%;
+    .order(column, center, center);
+    text-align: center;
 
-    min-height: 500px;
+    width: 800px;
+
+    height: 500px;
 
     margin-top: 10%;
-
-    .order(column, flex-start);
 
     @media @tablet {
 
@@ -23,6 +24,18 @@
 
     }
 
+}
+
+#about-content {
+
+    background-color: rgba(211, 211, 211, 0.9);
+
+    padding-bottom: 5%;
+
+    width: 75%;
+
+
+    .order(column, flex-start);
     
     h2 {
 

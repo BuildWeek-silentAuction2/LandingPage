@@ -371,20 +371,30 @@ h4 {
   align-items: center;
   text-align: center;
 }
-#about-content {
-  background-color: lightgray;
-  width: 50%;
-  min-height: 500px;
+#aboutbackground {
+  background-image: url("../images/a005-scottw-486.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 800px;
+  height: 500px;
   margin-top: 10%;
+}
+@media (max-width:800px) {
+  #aboutbackground {
+    width: 100%;
+  }
+}
+#about-content {
+  background-color: rgba(211, 211, 211, 0.9);
+  padding-bottom: 5%;
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-}
-@media (max-width:800px) {
-  #about-content {
-    width: 100%;
-  }
 }
 #about-content h2 {
   margin-top: 5%;
