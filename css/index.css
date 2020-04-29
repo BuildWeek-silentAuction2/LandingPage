@@ -217,10 +217,11 @@ h4 {
   background-color: white;
   padding: 0 0 0 0;
   margin: 5% 0 0 0;
+  max-width: 655px;
 }
 #sold-items #listings-container .listing img {
-  width: 45%;
-  height: 100%;
+  width: 272px;
+  height: 215px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
 }
@@ -228,10 +229,12 @@ h4 {
   padding: 2% 0px 0px 2%;
   margin: 0 0 0 0;
   min-width: 50%;
+  max-width: 377px;
   min-height: 100%;
 }
 #sold-items #listings-container .listing #listingleft #listingtext {
   font-weight: bold;
+  height: 42%;
 }
 #sold-items #listings-container .listing #listingleft p {
   padding: 0 0 0 0;
@@ -257,5 +260,54 @@ h4 {
   border-radius: 7px;
   padding: 5px 50px 5px 50px;
   margin: 0 0 0 0;
+  text-align: center;
+}
+#view-all-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+#listingimg {
+  background-image: url("../images/fakelistings/listing-screenshot.PNG");
+  background-size: cover;
+  text-align: center;
+  width: 80%;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#listingimg .popup {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/2020-black-crystalline-peaks-image.jpg");
+  color: lightgray;
+  font-size: 3rem;
+  width: 500px;
+  height: 300px;
+}
+#listingimg .popup #view-all-sign-up {
+  text-align: center;
+  width: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#listingimg .popup #view-all-sign-up a {
+  font-size: 1.9rem;
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #FFD700;
+  border: 3px solid #FFD700;
+  border-radius: 7px;
+  padding: 5px 50px 5px 50px;
+  margin: 5% 5% 0 0;
   text-align: center;
 }

@@ -1,0 +1,65 @@
+#view-all-body {
+
+    .order(column, flex-start, center);
+    text-align: center;
+
+}
+
+#listingimg {
+
+    background-image: url("../images/fakelistings/listing-screenshot.PNG");
+
+    background-size: cover;
+
+    text-align: center;
+
+    width: 80%;
+
+    height: 1000px;
+
+    .order(column, center, center);
+
+    .popup {
+
+        .order(column);
+
+        background-image: url("../images/2020-black-crystalline-peaks-image.jpg");
+
+        //background-color: black;
+
+        color: lightgray;
+
+        font-size: 3rem;
+
+        width: 500px;
+        height: 300px;
+
+        #view-all-sign-up {
+
+            text-align: center;
+
+            width: 300px;
+
+            margin-top: 50px;
+
+            .order(column, center, center);
+
+            a {
+
+                font-size: 1.9rem;
+
+                flex-shrink: 0;
+    
+                text-decoration: none;
+                color: @btn-color;
+                border: 3px solid @btn-color;
+                border-radius: 7px;
+        
+                .space(5px 50px 5px 50px, 5% 5% 0 0);
+        
+                text-align: center;
+
+            }
+        }
+    }
+}
