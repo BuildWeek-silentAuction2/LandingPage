@@ -30,17 +30,22 @@
 
         P {
 
-            margin-bottom: 10%;
+            //margin-bottom: 10%;
 
         }
 
         #ctabuttons {
 
-            .order(row, left, center);
+            .order(row, space-evenly, center);
 
             flex-wrap: wrap;
 
             flex-shrink: 0;
+
+            //height: 500px;
+
+            //min-width: 151px;
+            //max-width: 151px;
             
 
             a { //fix at diff resolutions
@@ -56,6 +61,32 @@
     
                 text-align: center;
 
+            }
+
+            div {
+
+                margin-top: 50px;
+
+            }
+
+            #loginbtndiv {
+
+                //margin-bottom: 30px;
+                //margin-right: 60px;
+                width: 160px;
+
+            }
+
+            #signupbtndiv {
+
+                width: 160px;
+
+                a {
+                    white-space: nowrap;
+                    .space(5px 42px 5px 42px);
+
+                }
+        
             }
 
         }

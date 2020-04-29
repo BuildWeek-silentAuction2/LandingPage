@@ -166,13 +166,10 @@ h4 {
   width: 30%;
   font-size: 2rem;
 }
-#cta #ctatext P {
-  margin-bottom: 10%;
-}
 #cta #ctatext #ctabuttons {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   flex-shrink: 0;
@@ -186,6 +183,20 @@ h4 {
   padding: 5px 50px 5px 50px;
   margin: 5% 5% 0 0;
   text-align: center;
+}
+#cta #ctatext #ctabuttons div {
+  margin-top: 50px;
+}
+#cta #ctatext #ctabuttons #loginbtndiv {
+  width: 160px;
+}
+#cta #ctatext #ctabuttons #signupbtndiv {
+  width: 160px;
+}
+#cta #ctatext #ctabuttons #signupbtndiv a {
+  white-space: nowrap;
+  padding: 5px 42px 5px 42px;
+  margin: 0 0 0 0;
 }
 #sold-items {
   background-color: #f7f7f7;
