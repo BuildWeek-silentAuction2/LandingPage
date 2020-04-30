@@ -1,5 +1,9 @@
 #about-body {
 
+    background-image: url("../images/rotated-edited.jpg");
+
+    background-size: stretch;
+
     .order(column, center, center);
     text-align: center;
 
@@ -7,14 +11,20 @@
 
 #aboutbackground {
 
-    background-image: url("../images/rotated-edited.jpg");
+    //background-image: url("../images/rotated-edited.jpg");
+
+    background-color: white;
+
+    border-radius: 10px;
+
+    box-shadow: 1px 10px 10px black;
 
     .order(column, center, center);
     text-align: center;
 
-    width: 800px;
+    width: 65%;
 
-    height: 500px;
+    height: 700px;
 
     margin-top: 10%;
 
@@ -28,15 +38,24 @@
 
 #about-content {
 
-    background-color: rgba(211, 211, 211, 0.5);
+    //background-color: rgba(211, 211, 211, 0.5);
 
     padding-bottom: 5%;
 
-    width: 75%;
-
-
     .order(column, flex-start);
     
+    #mission {
+
+        padding-bottom: 2%;
+
+    }
+
+    #team {
+
+        padding-bottom: 2%;
+
+    }
+
     h2 {
 
         margin-top: 5%;
@@ -62,6 +81,40 @@
 
             text-shadow: 1px 0px 1px rgb(120, 126, 125);
             margin-top: 10px;
+
+        }
+
+    }
+
+    #contributors-container {
+
+        .order(row, center, none);
+
+        margin-bottom: 2%;
+
+        #contributors {
+
+            margin-right: 50px;
+
+        }
+
+
+        a {
+
+            border: none;
+            .space(0 0 0 0, 0 0 0 0);
+
+            background-color: @text-color;
+            color: white;
+
+        }
+
+        div {
+
+            .order(column, space-around);
+
+            padding-bottom: 10px;
+            padding-top: 5px;
 
         }
 

@@ -390,6 +390,8 @@ h4 {
   text-shadow: 1px 0px 1px black;
 }
 #about-body {
+  background-image: url("../images/rotated-edited.jpg");
+  background-size: stretch;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -397,14 +399,16 @@ h4 {
   text-align: center;
 }
 #aboutbackground {
-  background-image: url("../images/rotated-edited.jpg");
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 1px 10px 10px black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  width: 800px;
-  height: 500px;
+  width: 65%;
+  height: 700px;
   margin-top: 10%;
 }
 @media (max-width:800px) {
@@ -413,13 +417,17 @@ h4 {
   }
 }
 #about-content {
-  background-color: rgba(211, 211, 211, 0.5);
   padding-bottom: 5%;
-  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+}
+#about-content #mission {
+  padding-bottom: 2%;
+}
+#about-content #team {
+  padding-bottom: 2%;
 }
 #about-content h2 {
   margin-top: 5%;
@@ -439,6 +447,31 @@ h4 {
 #about-content ul li {
   text-shadow: 1px 0px 1px #787e7d;
   margin-top: 10px;
+}
+#about-content #contributors-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: none;
+  margin-bottom: 2%;
+}
+#about-content #contributors-container #contributors {
+  margin-right: 50px;
+}
+#about-content #contributors-container a {
+  border: none;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+  background-color: #363535;
+  color: white;
+}
+#about-content #contributors-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 5px;
 }
 #about-content a {
   text-decoration: none;
