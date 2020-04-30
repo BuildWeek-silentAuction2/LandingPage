@@ -145,8 +145,9 @@ h4 {
   font-size: 2rem;
 }
 #toparea {
-  background-image: url("../images/brown-wooden-drumstick-beside-brown-wooden-case-179959.jpg");
-  background-position: left-center;
+  background-image: url("../images/rotated-edited.jpg");
+  background-size: cover;
+  background-position: right-center;
 }
 #cta {
   display: flex;
@@ -192,6 +193,12 @@ h4 {
   padding: 5px 50px 5px 50px;
   margin: 5% 5% 0 0;
   text-align: center;
+  text-shadow: 1px 0px 1px gold;
+}
+#cta #ctatext #ctabuttons a:hover {
+  background-color: gold;
+  color: black;
+  text-shadow: 1px 0px 1px black;
 }
 #cta #ctatext #ctabuttons div {
   margin-top: 50px;
@@ -312,6 +319,11 @@ h4 {
   margin: 0 0 0 0;
   text-align: center;
 }
+#viewall a:hover {
+  background-color: #363535;
+  color: white;
+  text-shadow: 1px 0px 1px white;
+}
 #view-all-body {
   display: flex;
   flex-direction: column;
@@ -370,6 +382,12 @@ h4 {
   padding: 5px 50px 5px 50px;
   margin: 5% 5% 0 0;
   text-align: center;
+  text-shadow: 1px 0px 1px gold;
+}
+#listingimg .popup #view-all-sign-up a:hover {
+  background-color: gold;
+  color: black;
+  text-shadow: 1px 0px 1px black;
 }
 #about-body {
   display: flex;
@@ -379,7 +397,7 @@ h4 {
   text-align: center;
 }
 #aboutbackground {
-  background-image: url("../images/a005-scottw-486.jpg");
+  background-image: url("../images/rotated-edited.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -395,7 +413,7 @@ h4 {
   }
 }
 #about-content {
-  background-color: rgba(211, 211, 211, 0.9);
+  background-color: rgba(211, 211, 211, 0.5);
   padding-bottom: 5%;
   width: 75%;
   display: flex;
@@ -424,7 +442,16 @@ h4 {
 }
 #about-content a {
   text-decoration: none;
-  color: black;
+  color: #363535;
+  border: 3px solid #363535;
+  border-radius: 7px;
+  padding: 7px 25px 7px 25px;
+  margin: 0 0 0 0;
+  text-align: center;
+}
+#about-content a:hover {
+  background-color: #363535;
+  color: white;
 }
 footer {
   padding: 1% 0 1% 0;
@@ -460,4 +487,7 @@ footer nav {
 footer nav a {
   text-decoration: none;
   color: #d4d4d4;
+}
+footer nav a:hover {
+  color: white;
 }
