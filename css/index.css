@@ -238,6 +238,28 @@ h4 {
   flex-wrap: wrap;
   margin-bottom: 4%;
 }
+#sold-items #listings-container a {
+  text-decoration: none;
+  color: #363535;
+  padding: 0 0 0 0;
+  margin: 5% 0 0 0;
+  min-width: 655px;
+  max-width: 655px;
+}
+@media (max-width:800px) {
+  #sold-items #listings-container a {
+    min-width: 75%;
+    max-width: 75%;
+  }
+}
+#sold-items #listings-container a:hover .listing {
+  background-image: url("../images/dark-blur-blurred-gradient-1526-edited.jpg");
+  color: white;
+}
+#sold-items #listings-container a:hover .listing #biddinginfo {
+  color: white;
+  font-weight: bold;
+}
 #sold-items #listings-container .listing {
   display: flex;
   flex-direction: row;
@@ -247,16 +269,6 @@ h4 {
   border-radius: 5px;
   box-shadow: 0px 0px 5px 0px #787e7d;
   background-color: white;
-  padding: 0 0 0 0;
-  margin: 5% 0 0 0;
-  min-width: 655px;
-  max-width: 655px;
-}
-@media (max-width:800px) {
-  #sold-items #listings-container .listing {
-    min-width: 75%;
-    max-width: 75%;
-  }
 }
 #sold-items #listings-container .listing img {
   width: 272px;
@@ -293,6 +305,7 @@ h4 {
   margin-right: 20%;
   font-size: 1.2rem;
   height: 50%;
+  color: black;
 }
 #biddinginfo p {
   margin-right: 5px;
