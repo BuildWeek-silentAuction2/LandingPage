@@ -259,7 +259,8 @@ h4 {
 }
 @media (max-width:800px) {
   #sold-items #listings-container .listing img {
-    width: 60%;
+    max-width: 45%;
+    max-height: 45%;
   }
 }
 #sold-items #listings-container .listing #listingleft {
@@ -285,6 +286,12 @@ h4 {
   margin-right: 20%;
   font-size: 1.2rem;
   height: 50%;
+}
+#biddinginfo p {
+  margin-right: 5px;
+}
+#biddinginfo p span {
+  white-space: nowrap;
 }
 #viewall {
   text-align: center;
