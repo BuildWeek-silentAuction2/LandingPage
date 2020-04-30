@@ -145,8 +145,9 @@ h4 {
   font-size: 2rem;
 }
 #toparea {
-  background-image: url("../images/brown-wooden-drumstick-beside-brown-wooden-case-179959.jpg");
-  background-position: left-center;
+  background-image: url("../images/rotated-edited.jpg");
+  background-size: cover;
+  background-position: right-center;
 }
 #cta {
   display: flex;
