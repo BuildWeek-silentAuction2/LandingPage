@@ -380,7 +380,7 @@ h4 {
   text-align: center;
 }
 #aboutbackground {
-  background-image: url("../images/a005-scottw-486.jpg");
+  background-image: url("../images/rotated-edited.jpg");
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -396,7 +396,7 @@ h4 {
   }
 }
 #about-content {
-  background-color: rgba(211, 211, 211, 0.9);
+  background-color: rgba(211, 211, 211, 0.5);
   padding-bottom: 5%;
   width: 75%;
   display: flex;
@@ -425,7 +425,12 @@ h4 {
 }
 #about-content a {
   text-decoration: none;
-  color: black;
+  color: #363535;
+  border: 3px solid #363535;
+  border-radius: 7px;
+  padding: 7px 25px 7px 25px;
+  margin: 0 0 0 0;
+  text-align: center;
 }
 footer {
   padding: 1% 0 1% 0;
