@@ -391,7 +391,8 @@ h4 {
 }
 #about-body {
   background-image: url("../images/rotated-edited.jpg");
-  background-size: stretch;
+  background-size: 2000px;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -470,7 +471,7 @@ h4 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 13px;
   padding-top: 5px;
 }
 #about-content a {
