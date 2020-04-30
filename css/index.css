@@ -193,6 +193,12 @@ h4 {
   padding: 5px 50px 5px 50px;
   margin: 5% 5% 0 0;
   text-align: center;
+  text-shadow: 1px 0px 1px gold;
+}
+#cta #ctatext #ctabuttons a:hover {
+  background-color: gold;
+  color: black;
+  text-shadow: 1px 0px 1px black;
 }
 #cta #ctatext #ctabuttons div {
   margin-top: 50px;
@@ -313,6 +319,11 @@ h4 {
   margin: 0 0 0 0;
   text-align: center;
 }
+#viewall a:hover {
+  background-color: #363535;
+  color: white;
+  text-shadow: 1px 0px 1px white;
+}
 #view-all-body {
   display: flex;
   flex-direction: column;
@@ -371,6 +382,12 @@ h4 {
   padding: 5px 50px 5px 50px;
   margin: 5% 5% 0 0;
   text-align: center;
+  text-shadow: 1px 0px 1px gold;
+}
+#listingimg .popup #view-all-sign-up a:hover {
+  background-color: gold;
+  color: black;
+  text-shadow: 1px 0px 1px black;
 }
 #about-body {
   display: flex;
@@ -432,6 +449,10 @@ h4 {
   margin: 0 0 0 0;
   text-align: center;
 }
+#about-content a:hover {
+  background-color: #363535;
+  color: white;
+}
 footer {
   padding: 1% 0 1% 0;
   margin: 0 0 0 0;
@@ -466,4 +487,7 @@ footer nav {
 footer nav a {
   text-decoration: none;
   color: #d4d4d4;
+}
+footer nav a:hover {
+  color: white;
 }
